@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>PV Array Test Report</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <form method="post">
+        <div style="max-width: 750px; margin: auto;">
+
+            <!-- Heading Start -->
+            <table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td height="100" align="left" valign="middle" style="position: relative"><Strong style="font-size: 30px; color: #C30533;">PV Array Test Report</Strong></td>
+                        <td align="right" valign="middle"><img class="logo" src="assets/LOGO.svg" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Heading End -->
+
+            <!-- Initial and Periodic Verification Start -->
+            <table width="500" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" class="ctable border">
+                                <tbody>
+                                    <tr class="nofill" style="border: 1px solid #c305354d" valign="middle">
+                                        <td width="40" height="25" align="center"><input type="radio" name="pmdonegrp" value="Yes" id="Initial"></td>
+                                        <td><span>Initial Verification</span></td>
+                                        <td width="40" height="25" align="center" ><input type="radio" name="pmdonegrp" value="Yes" id="Initial"></td>
+                                        <td><span>Periodic Verification</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Initial and Periodic Verification End -->
+
+            <!-- Address and Refference Section Start -->
+            <table width="500" style="margin-top: 10px;" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+
+                        <!-- Installation Address Start -->
+                        <td width="500">
+                            <table width="500" border="0" align="left" cellpadding="0" cellspacing="0" class="ctable border">
+                                <tbody style="border: 1px solid #c305354d">
+                                    <tr>
+                                        <td height="25" align="left" valign="middle" class="nofill "><strong>INSTALLATION ADDRESS</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="middle" class="nofill "><textarea class="input s3-border" name="" id="Installation" style="width: 480px; height: 100px;"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td height="25" align="left" valign="middle" class="nofill"><strong>DESCRIPTION OF WORK UNDER TEST</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="middle" class="nofill"><textarea class="input s3-border" name="" id="Description" style="width: 480px; height: 100px;"></textarea></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                        <!-- Installation Address End -->
+
+                        <!-- Refference Start -->
+                        <td width="250" max-height="100%" class="float-end">
+                            <table width="230" border="0" align="right" cellpadding="0" cellspacing="0" class="ctable border">
+                                <tbody style="border: 1px solid #c305354d">
+                                    <tr>
+                                        <td valign="middle" class="nofill ref"><strong>REFERENCE</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="middle"><input id="Refference" class="input m-1 p-1  s3-border" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="middle" class="nofill ref"><strong>DATE</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="middle"><input id="Date" class="input m-1 p-1 s3-border" type="date"></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="middle" class="nofill ref"><strong>INSPECTOR</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="middle"><input id="ref" class="input m-1 p-1 s3-border" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td  valign="middle" class="nofill ref"><strong>TEST INSTRUMENTS</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="middle"><input id="ref" class="input m-1 p-1 s3-border" type="text"></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </td>
+                        <!-- Refference Start -->
+
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Address and Refference Section End -->
+
+
+            <!-- String Start -->
+            <table style="margin-top: 10px;" width="750" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="s3-border">
+                                <tbody>
+                                    <tr height="25">
+                                        <th class="peach colspan-8"><span>STRING</span></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- String End -->
+
+            <!-- Main Body Start -->
+            <table width="750" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" class="table-bordered" cellpadding="0" cellspacing="0">
+                                <tbody>
+
+                                    <!-- Array Start -->
+                                    <tr>
+                                        <th class="peach" rowspan="2">Array</th>
+                                        <td class="peach">Module</td>
+                                        <td class="peach">series</td>
+                                        <td class="peach">series</td>
+                                        <td class="peach">series</td>
+                                        <td class="peach">series</td>
+                                        <td class="peach">series</td>
+                                        <td class="peach">series</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Quantity</td>
+                                        <td><input id="Quantity" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Quantity" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Quantity" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Quantity" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Quantity" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Quantity" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Array End -->
+
+                                    <!-- Array parameters Start -->
+                                    <tr>
+                                        <th class="peach" rowspan="2">Array parameters<br>(as specified)</th>
+                                        <td class="peach">Voc (stc)</td>
+                                        <td><input id="Voc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Voc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Voc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Voc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Voc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Voc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Isc (stc)</td>
+                                        <td><input id="Isc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Isc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Isc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Isc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Isc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Isc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Array parameters Start -->
+
+                                    <!-- String over-current protective device Start-->
+                                    <tr>
+                                        <th class="peach" rowspan="4">String over-current<br>protective device</th>
+                                        <td class="peach">Type</td>
+                                        <td><input id="Type" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Type" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Type" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Type" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Type" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Type" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Rating (A)</td>
+                                        <td><input id="Rating" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Rating" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Rating" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Rating" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Rating" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Rating" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">D Rating (V)</td>
+                                        <td><input id="Drate" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Drate" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Drate" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Drate" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Drate" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Drate" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Capacity (kA)</td>
+                                        <td><input id="Cap" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Cap" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Cap" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Cap" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Cap" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Cap" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- String over-current protective device End-->
+
+
+                                    <!-- Wiring Start-- -->
+                                    <tr>
+                                        <th class="peach" rowspan="3">Wiring</th>
+                                        <td class="peach">Type</td>
+                                        <td><input id="wType" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="wType" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="wType" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="wType" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="wType" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="wType" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Phase (mm2)</td>
+                                        <td><input id="Phase" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Phase" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Phase" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Phase" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Phase" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Phase" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Earth (mm2)</td>
+                                        <td><input id="Earth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Earth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Earth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Earth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Earth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Earth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Wiring end -->
+
+                                    <!-- String Test Start -->
+                                    <tr>
+                                        <th class="peach" rowspan="3">String test</th>
+                                        <td class="peach">Voc (V)</td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Isc (A)</td>
+                                        <td><input id="aIsc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="aIsc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="aIsc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="aIsc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="aIsc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="aIsc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Ir radiance</td>
+                                        <td><input id="radiance" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="radiance" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="radiance" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="radiance" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="radiance" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="radiance" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- String Test End -->
+
+                                    <!-- Polarity check start -->
+                                    <tr>
+                                        <th class="peach" colspan="2">Polarity Check</th>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="vVoc" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Polarity check end -->
+
+                                    <!-- Array insulation resistance Start -->
+                                    <tr>
+                                        <th class="peach" rowspan="3">Array insulation<br>resistance</th>
+                                        <td class="peach">Test voltage (V)</td>
+                                        <td><input id="voltage" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="voltage" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="voltage" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="voltage" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="voltage" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="voltage" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Pos - Earth (MΩ)</td>
+                                        <td><input id="posEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="posEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="posEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="posEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="posEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="posEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="peach">Neg - Earth (MΩ)</td>
+                                        <td><input id="negEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="negEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="negEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="negEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="negEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="negEarth" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Array insulation resistance Start -->
+
+                                    <!-- Earth continuity start -->
+                                    <tr>
+                                        <th class="peach" colspan="2">Earth continuity(where fitted)</th>
+                                        <td><input id="earthCon" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="earthCon" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="earthCon" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="earthCon" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="earthCon" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="earthCon" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Earth continuity end -->
+
+                                    <!-- Switch gear functioning correctly start -->
+                                    <tr>
+                                        <th class="peach" colspan="2">Switch gear functioning correctly</th>
+                                        <td><input id="Switch" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Switch" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Switch" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Switch" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Switch" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="Switch" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Switch gear functioning correctly end -->
+
+                                    <!-- Inverter make start -->
+                                    <tr>
+                                        <th class="peach" colspan="2">Inverter make / model</th>
+                                        <td><input id="invMa" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invMa" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invMa" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invMa" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invMa" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invMa" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Inverter make end -->
+
+                                    <!-- Inverter serial number start -->
+                                    <tr>
+                                        <th class="peach" colspan="2">Inverter serial number</th>
+                                        <td><input id="invSl" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invSl" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invSl" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invSl" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invSl" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invSl" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Inverter serial number end -->
+
+                                    <!-- Inverter functioning correctly start -->
+                                    <tr>
+                                        <th class="peach" colspan="2">Inverter functioning correctly</th>
+                                        <td><input id="invFu" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invFu" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invFu" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invFu" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invFu" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="invFu" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Inverter functioning correctly end -->
+
+                                    <!-- Loss of mains test start -->
+                                    <tr>
+                                        <th class="peach" colspan="2">Loss of mains test</th>
+                                        <td><input id="loss" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="loss" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="loss" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="loss" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="loss" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                        <td><input id="loss" maxlength="6" size="6" class="input-group string" type="text"></td>
+                                    </tr>
+                                    <!-- Loss of mains test end -->
+                                </tbody>
+                            </table>
+
+                            <!-- Comments start -->
+                            <table width="100%" border="0" style="margin-top: 10px;" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <th class="peach" style="border: 1px solid #c305354d" colspan="8">Comments</th>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="middle"><textarea class="s3-border" name="" id="Comments" style="width: 750px; height: 100px;"></textarea></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- Comments end -->
+
+                            <!-- submit start -->
+                            <input type="submit" name="submit" value="Submit" class="btnsubmit">
+                            <!-- submit end -->
+
+                            <!-- footer start -->
+                            <tr>
+                                <td height="50" align="center" valign="middle" style="font-size: 10px; font-style: italic;">SEAWARD - Tested, Trusted, Worldwide</td>
+                            </tr>
+                            <!-- footer end -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Main Body End -->
+        </div>
+    </form>   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+body, html{
+	height: 100%;
+	overflow-y: auto;
+    margin: 0%;
+    padding: 0%;
+	background: #d6d6d68e !important;
+	overflow-x: scroll !important;
+	font-family:sans-serif !important;
+}
+
+
+
+.logo{
+    max-width: 200px;
+    margin: auto;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    color: #C30533;
+}
+.logo img {
+    width: 100%;
+}
+.ctable{
+    border: 1px solid #292929 !important;
+}
+.peach{
+    background-color: #ffe6e6;
+    font-size: 12px;
+    padding-left: 6px;
+}
+.input {
+    font-size: 14px;
+    height: 29px;
+    width: 96%;
+}
+.s3-border {
+    border: 1px solid #c305354d !important;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+.ref{
+    padding-top: 10px;
+}
+table,table-bordered{
+    border: #c305354d;
+}
+.string{
+    border: 1px solid #c305354d !important;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin: 0%;
+    padding: 1;
+}
+.nofill{
+    font-size: 12px;
+    padding-left: 6px;
+}
+
+.btnsubmit{
+    border: 0px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background:#C30533;
+    margin-top: 10px;
+}
